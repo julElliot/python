@@ -25,7 +25,6 @@ while (line != ''):
     line = fp.readline()
 fp.close()
 
-#print (ip_list)
 ip_uniqe_list = list(set(ip_list))
 print('Количество уникальных ip-адресов: ', len(ip_uniqe_list))
 print('Количество браузеров Safari: ', safari_count)
